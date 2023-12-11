@@ -42,7 +42,7 @@ static void DeleteUser(RestClient client)
 
     var deleteUserRes = client.Execute(deleteUserReq);
     Console.WriteLine("DELETE User Response:");
-    Console.WriteLine(deleteUserRes.Content);
+    Console.WriteLine(deleteUserRes.Content);    
 }
 static void GetSingleUser(RestClient client)
 {
