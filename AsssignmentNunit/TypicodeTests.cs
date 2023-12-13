@@ -71,6 +71,7 @@ namespace AssignmentNunit
             var req = new RestRequest("posts", Method.Get);
             var res = client.Execute(req);
 
+
             Assert.That(res.StatusCode, Is.EqualTo(System.Net.HttpStatusCode.OK));
         }
     }
