@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestExNunit
+namespace CaseStudy_API
 {
     public class UserData
     {

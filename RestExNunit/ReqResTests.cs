@@ -1,9 +1,9 @@
 ﻿using Newtonsoft.Json;
-using RestExNunit.Utilities;
+using CaseStudy_API.Utilities;
 using RestSharp;
 using Serilog;
 
-namespace RestExNunit
+namespace CaseStudy_API
 {
     [TestFixture]
     public class ReqResTests: CoreCodes
